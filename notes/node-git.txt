@@ -1,0 +1,4 @@
+//Git commands or tutorial for deploying an backend
+
+//initialize git to project
+$git init
