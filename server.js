@@ -1,12 +1,12 @@
 const express = require('express')
-require('dotenv').config();
+require('dotenv').config({ path: "./.env" });
+const PORT = process.env.PORT || 3000;
 const app = express();
 const db = require('./db');
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 //PORT
-const PORT = process.env.PORT || 3000;
 
 // Models imports
 const MenuItem = require('./models/MenuItem');
