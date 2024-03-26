@@ -12,3 +12,6 @@ $git ingnore //ignore files
 $git rm -r --cached node_modules //To remove files from cache
 
 $git commit -m "First version of backend" //Adding an message to the cache data
+
+
+$git pull //get data from github
